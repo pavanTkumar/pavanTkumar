@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pavan Tejavath · AI Engineer · Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --card: #12121a;
+      --muted: #9aa0a6;
+      --ink: #e6e6f0;
+      --acc: #7c5cff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    a { color: var(--acc); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 960px; margin: 3rem auto; padding: 0 1rem; }
+    .hero { display: grid; grid-template-columns: 1fr auto; gap: 1rem; align-items: end; }
+    .title { font-size: clamp(1.8rem, 3vw, 2.4rem); margin: 0; }
+    .tag { color: var(--muted); font-weight: 500; margin-top: .25rem; }
+    .cta { display: flex; gap: .75rem; flex-wrap: wrap; }
+    .btn { background: var(--acc); color: white; padding: .6rem .9rem; border-radius: 999px; font-weight: 600; border: none; cursor: pointer; }
+    .btn.ghost { background: transparent; border: 1px solid #2b2b38; color: var(--ink); }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; margin-top: 2rem; }
+    .card { grid-column: span 12; background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.06); padding: 1rem 1.2rem; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+    .card h3 { margin: 0 0 .6rem; font-size: 1.1rem; letter-spacing: .2px; }
+    .row { display: flex; gap: .6rem; flex-wrap: wrap; margin: .6rem 0; }
+    .pill { background: rgba(124, 92, 255, .12); border: 1px solid rgba(124, 92, 255, .35); color: #cfc8ff; padding: .25rem .6rem; border-radius: 999px; font-size: .85rem; }
+    .meta { color: var(--muted); font-size: .95rem; }
+    .list { margin: .5rem 0 0 1rem; }
+    .list li { margin: .25rem 0; }
+    .two { grid-column: span 12; }
+    @media (min-width: 880px) {
+      .two { grid-column: span 6; }
+    }
+    /* Print */
+    @media print {
+      body { background: white; color: #111; }
+      .card { box-shadow: none; background: white; border: 1px solid #e5e7eb; }
+      .btn, .cta { display: none !important; }
+      a { color: #2563eb; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1 class="title">Pavan Tejavath</h1>
+        <div class="tag">AI Engineer · GenAI · RAG · ML Systems</div>
+        <div class="meta">hirepavan@thetejavath.com · +91‑7893936732 · <a href="https://thetejavath.com" target="_blank" rel="noreferrer">thetejavath.com</a> · <a href="https://linkedin.com/in/geekypavan" target="_blank" rel="noreferrer">LinkedIn</a></div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="../assets/Pavan_Tejavath_AI_Engineer_Resume.pdf" target="_blank" rel="noreferrer">Download PDF</a>
+        <a class="btn ghost" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card two">
+        <h3>Summary</h3>
+        <p>AI Engineer with experience in GenAI, NLP, and CV pipelines. Built scalable ML systems using Python, PyTorch, TensorFlow, LangChain, LangGraph, and Docker. Delivered production‑grade assistants, led full‑stack data annotation flows, and optimized LLM‑based retrieval with vector DBs.</p>
+        <div class="row">
+          <span class="pill">GenAI</span><span class="pill">RAG</span><span class="pill">LangChain</span><span class="pill">LangGraph</span><span class="pill">FastAPI</span><span class="pill">Docker</span><span class="pill">Vector DBs</span>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>Core Stack</h3>
+        <div class="row">
+          <span class="pill">Python</span><span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">HuggingFace</span><span class="pill">OpenAI API</span><span class="pill">Neo4j</span><span class="pill">Elasticsearch</span><span class="pill">GCP</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">GitHub Actions</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Experience</h3>
+        <ul class="list">
+          <li><strong>Software Developer (AI + Full Stack) · Suviko</strong> — Jul 2024 – Present<br/>
+            Launched ML‑assisted apps (Fish Pond, Kannada App) using Flutter, Firebase, and TFLite. Integrated Node.js + FastAPI backends on distributed Firebase; added multilingual annotation flows and automated QA via embedding similarity.
+          </li>
+          <li><strong>Founder / ML‑Full Stack Developer · The Tejavath</strong> — Feb 2025 – Present<br/>
+            Delivered LLM‑based data annotation workflows for clients (Jarong, Bismillah Foods, Our Time Jewelers). Built GenAI pipelines and prod‑ready POCs with LangChain, Pinecone, and OpenAI. Prototyped tone‑adaptive summarizers and LLM‑as‑Judge QA evaluators.
+          </li>
+          <li><strong>AI Research Assistant (Grad) · George Mason University</strong> — Sep 2022 – May 2024<br/>
+            Built NLP pipeline converting PDF papers to knowledge graphs (Neo4j, HuggingFace, PyMuPDF). Ran multilingual experiments comparing TF‑IDF vs embedding retrieval effectiveness.
+          </li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Projects</h3>
+        <ul class="list">
+          <li><strong><a href="https://myAI.thetejavath.com" target="_blank" rel="noreferrer">myAI.thetejavath.com</a></strong> — Long‑context assistant with agent workflows & feedback scoring; served 1500+ queries.</li>
+          <li><strong>LabelNow.AI (Concept)</strong> — Multi‑modal annotation (image/video), classification, LLM‑based QA review.</li>
+          <li><strong>RemoteJobs.AI</strong> — AI‑curated remote job board; LinkedIn + GitHub API; Python resume parser.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Certifications</h3>
+        <div class="row">
+          <span class="pill">HuggingFace LLMs</span><span class="pill">CS50 AI</span><span class="pill">DeepLearning.AI RAG</span><span class="pill">AWS Cloud Practitioner</span><span class="pill">Cisco Python PCAP</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Education</h3>
+        <ul class="list">
+          <li><strong>M.S., Information Systems</strong> — George Mason University (2022–2024)</li>
+          <li><strong>B.Tech, Computer Science</strong> — KL University (2018–2022)</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
