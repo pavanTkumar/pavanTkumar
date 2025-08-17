@@ -25,7 +25,7 @@ I care about reliable retrieval, clean APIs, and shipping fast with solid infra.
 ## 🛠️ Stack
 **Python, PyTorch, TensorFlow, LangChain, LangGraph, HuggingFace, OpenAI API, FastAPI, Supabase, Firebase, Docker, Kubernetes, GitHub Actions, Neo4j, PostgreSQL, Elasticsearch, GCP**
 
-## 💼 Experience (short)
+## 💼 Experience 
 - **Software Dev (AI + Full Stack) @ Suviko** — ML‑assisted apps (Flutter, TFLite); distributed Firebase; QA via embedding similarity. *(2024–present)*
 - **Founder @ The Tejavath** — LLM annotation workflows for clients; GenAI POCs to prod. *(2025–present)*
 - **AI Research Assistant @ George Mason Univ.** — PDF‑to‑KG NLP pipeline; multilingual retrieval experiments. *(2022–2024)*
@@ -41,5 +41,4 @@ B.Tech CSE — KL University
 
 ### 📄 Resume
 Find the latest resume here → [assets/Pavan_Tejavath_AI_Engineer_Resume.pdf](assets/Pavan_Tejavath_AI_Engineer_Resume.pdf)  
-Pro tip: pin this repo and enable GitHub Pages for a clean web CV at `https://github.com/<your-username>/<your-username>/` and `https://<your-username>.github.io/`.
 
